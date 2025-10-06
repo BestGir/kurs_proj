@@ -1,0 +1,58 @@
+# === OS / IDE ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+.vscode/
+.idea/
+*.code-workspace
+
+# === Git ===
+*.orig
+*.rej
+
+# === Logs / coverage ===
+*.log
+logs/
+coverage/
+lcov.info
+
+# === Docker / локальные данные ===
+.env           # реальные секреты храним локально
+**/.env
+**/pgdata/     # volume с данными Postgres (если такое есть)
+
+# === .NET / Visual Studio ===
+**/bin/
+**/obj/
+**/out/
+**/TestResults/
+**/.vs/
+*.user
+*.suo
+*.rsuser
+
+# Rider / ReSharper / NCrunch
+_ReSharper*/
+*.DotSettings.user
+*.ncrunchproject
+*.ncrunchsolution
+
+# === Entity Framework Core ===
+# МИГРАЦИИ НЕ ИГНОРИРУЕМ! (папку Migrations оставляем в репозитории)
+# Если генерятся локальные БД-файлы (редко для PostgreSQL) — игнорируй по имени:
+*.mdf
+*.ldf
+
+# === Frontend (на будущее) ===
+node_modules/
+dist/
+.cache/
+*.map
+
+# === Build artifacts / упаковка ===
+*.zip
+*.7z
+*.tar
+*.gz
