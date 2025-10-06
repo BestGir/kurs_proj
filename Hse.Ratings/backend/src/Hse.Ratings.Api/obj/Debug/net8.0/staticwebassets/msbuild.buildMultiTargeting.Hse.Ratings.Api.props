@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Hse.Ratings.Api.props" />
+</Project>

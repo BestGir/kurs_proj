@@ -1,0 +1,203 @@
+/* ===================== CSS переменные (тема/палитра) ===================== */
+:root{
+  --bg:#0f141a;
+  --panel:#121922;
+  --panel-2:#0f171f;
+  --text:#e7eef7;
+  --muted:#98a6b3;
+  --brand:#7cc4ff;
+  --line:#233041;
+  --ok:#1f9d5b;
+  --warn:#f5a623;
+  --bad:#b3383a;
+  --btn:#233041;
+  --btn-h:#30455d;
+  --tag:#1b2430;
+  --radius:14px;
+  --radius-sm:10px;
+}
+
+/* Базовые сбросы/типографика */
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font:16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Noto Sans", Arial, "Apple Color Emoji","Segoe UI Emoji";
+}
+
+/* Контейнер макета страницы (увеличена ширина до ~1400px) */
+.container{max-width:1400px;margin:0 auto;padding:22px}
+
+/* ===================== Верхняя панель навигации ===================== */
+.topbar{position:sticky;top:0;z-index:50;background:#0c1117cc;border-bottom:1px solid var(--line);backdrop-filter:saturate(150%) blur(6px)}
+.nav{display:flex;align-items:center;justify-content:space-between}
+.nav-left{display:flex;gap:16px;align-items:center}
+.brand{font-weight:700;color:var(--text);text-decoration:none;margin-right:8px}
+.nav-link{color:var(--muted);text-decoration:none;padding:10px;border-radius:10px}
+.nav-link:hover{background:var(--btn-h);color:var(--text)}
+
+.nav-right{display:flex;gap:10px;align-items:center}
+
+/* ===================== Кнопки ===================== */
+.btn{
+  background:var(--btn);
+  color:var(--text);
+  padding:8px 14px;border:1px solid var(--line);border-radius:12px;
+  cursor:pointer;transition:all .15s;
+}
+.btn:hover{background:var(--btn-h)}
+.btn-primary{background:#1f2e3f;border-color:#315075}
+.btn-primary:hover{background:#274463}
+.btn-danger{background:#37191a;border-color:#5e2a2c}
+.btn-danger:hover{background:#4a2325}
+.btn-ghost{background:transparent;border-color:var(--line)}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.btn-sm{padding:6px 10px;border-radius:10px;font-size:14px}
+
+/* Заголовки (утилитарные классы) */
+.h1{font-size:34px;font-weight:800;margin:10px 0 20px}
+.h2{font-size:24px;font-weight:700;margin:0 0 12px}
+
+/* ===================== Сетки ===================== */
+.grid{
+  display:grid;gap:16px;
+  grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+}
+
+/* Отдельная сетка для админки — две широкие колонки */
+.admin-grid{
+  display:grid;gap:24px;
+  grid-template-columns:repeat(2, minmax(0,1fr));
+}
+@media (max-width:1000px){
+  .admin-grid{grid-template-columns:1fr;}
+}
+
+/* ===================== Карточки и панели ===================== */
+.card{
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:18px;
+}
+.card:hover{border-color:#33506e}
+.card-title{font-weight:700;margin:0 0 8px}
+.card-sub{color:var(--muted);font-size:14px}
+
+.panel{
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:18px;
+  margin:14px 0;
+}
+
+/* Ряды/отступы */
+.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.gap-m{gap:16px}
+
+/* ===================== Формы ===================== */
+.input, .select, .textarea{
+  width:100%;
+  background:var(--panel-2);
+  color:var(--text);
+  border:1px solid var(--line);
+  border-radius:12px;
+  padding:10px 12px;
+  outline:none;
+}
+.input:focus, .select:focus, .textarea:focus{border-color:#3d5f84}
+.textarea{min-height:120px;resize:vertical}
+
+/* Сетка формы (2 колонки) */
+.form-grid{
+  display:grid;gap:12px;
+  grid-template-columns:repeat(2, minmax(0,1fr));
+}
+.form-grid .col-2{grid-column:span 2}
+
+/* ===================== Теги/бейджи ===================== */
+.tag{
+  display:inline-flex;align-items:center;gap:6px;
+  background:var(--tag);border:1px solid var(--line);color:var(--muted);
+  border-radius:100px;padding:4px 10px;font-size:12px;
+}
+.tag-muted{opacity:.8}
+.tag-ok{background:#11261a;border-color:#274a34;color:#9de0b6}
+.tag-bad{background:#2b1718;border-color:#4e2a2c;color:#f4b2b4}
+
+/* ===================== Алёрты/предупреждения ===================== */
+.alert{
+  background:#2b0f11;border:1px solid #5a2226;color:#ffd3d4;
+  border-radius:12px;padding:12px 14px
+}
+.alert-ok{
+  background:#0f2318;border-color:#244a34;color:#c9f3d6
+}
+
+/* Пары ключ–значение (маленькие строки с подписями) */
+.kv{display:inline-flex;gap:8px;align-items:center}
+.kv .k{color:var(--muted);font-size:14px}
+
+/* ===================== Списки ===================== */
+.list{display:flex;flex-direction:column;gap:10px}
+.list-item{padding:12px;border:1px solid var(--line);border-radius:12px;background:var(--panel-2)}
+
+/* Комментарии/многострочный текст — сохраняем переносы и обрывы длинных слов */
+.comment,
+.multiline{
+  white-space:pre-wrap;
+  overflow-wrap:anywhere;
+  word-break:break-word;
+  line-height:1.4;
+}
+.comment{margin-top:6px}
+
+/* ===================== Двухколоночный блок (описание + средние оценки) ===================== */
+.split{
+  display:flex;
+  align-items:flex-start;
+  gap:18px;
+}
+.split .col-main{flex:1 1 78%;}
+.split .col-side{flex:0 0 22%;}
+@media (max-width:1000px){
+  .split{flex-direction:column}
+  .split .col-side{flex:0 0 auto}
+}
+
+/* Блок со средними оценками (правый сайдбар) */
+.avgbox{
+  background:var(--panel-2);
+  border:1px solid var(--line);
+  border-radius:12px;
+  padding:14px;
+}
+.avgbox .avg-title{
+  font-weight:800;
+  margin:0 0 10px;
+  font-size:16px;
+}
+.avglist{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+.avgitem{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:10px;
+  padding:8px 10px;
+  border:1px solid var(--line);
+  border-radius:10px;
+  background:var(--panel);
+  font-size:15.5px;          /* было мелко — сделано крупнее */
+}
+.avgitem .label{opacity:.8}
+.avgcount{margin-top:10px; display:block; opacity:.8; font-size:13px}
+
+/* Нижняя сноска */
+.footnote{opacity:.6;text-align:center;padding-top:6px}

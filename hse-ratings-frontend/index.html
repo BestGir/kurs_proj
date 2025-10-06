@@ -1,0 +1,47 @@
+
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <!-- Масштабирование страницы на мобильных устройствах -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HSE Ratings</title>
+  <!-- Иконка вкладки -->
+  <link rel="icon" href="favicon.svg" />
+  <!-- Глобальные стили приложения (с версионированием через query-param) -->
+  <link rel="stylesheet" href="styles.css?v=1" />
+</head>
+<body>
+  <!-- Верхняя панель навигации -->
+  <header class="topbar">
+    <nav class="container nav">
+      <div class="nav-left">
+        <!-- Логотип/бренд ведёт на список курсов -->
+        <a href="#/courses" class="brand">HSE Ratings</a>
+        <!-- Основные разделы SPA (роутинг по hash) -->
+        <a href="#/courses" class="nav-link" data-link="courses">Курсы</a>
+        <a href="#/teachers" class="nav-link" data-link="teachers">Преподаватели</a>
+        <a href="#/admin" class="nav-link" data-link="admin">Админ</a>
+      </div>
+
+      <div class="nav-right">
+        <!-- Бейдж роли (guest/admin), управляется скриптом -->
+        <span id="authRoleBadge" class="tag tag-muted" hidden>guest</span>
+        <!-- Кнопки аутентификации; видимость переключается скриптами -->
+        <button id="btnLogin"  class="btn btn-ghost">Войти</button>
+        <button id="btnLogout" class="btn btn-ghost" hidden>Выйти</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Контейнер, куда рендерятся страницы/вьюхи SPA -->
+  <main id="app" class="container"></main>
+
+  <footer class="container footnote">
+    <small>© HSE Ratings — демо</small>
+  </footer>
+
+  <!-- Точка входа фронтенда (ES-модуль); внутри происходит инициализация роутера/страниц -->
+  <script type="module" src="js/app.js?v=1"></script>
+</body>
+</html>

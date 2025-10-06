@@ -1,0 +1,30 @@
+C:\Users\RobotComp\Курсач\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\bin\Debug\net8.0\Hse.Ratings.Application.deps.json
+C:\Users\RobotComp\Курсач\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\bin\Debug\net8.0\Hse.Ratings.Application.dll
+C:\Users\RobotComp\Курсач\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\bin\Debug\net8.0\Hse.Ratings.Application.pdb
+C:\Users\RobotComp\Курсач\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\bin\Debug\net8.0\Hse.Ratings.Domain.dll
+C:\Users\RobotComp\Курсач\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\bin\Debug\net8.0\Hse.Ratings.Domain.pdb
+C:\Users\RobotComp\Курсач\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\obj\Debug\net8.0\Hse.Ratings.Application.csproj.AssemblyReference.cache
+C:\Users\RobotComp\Курсач\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\obj\Debug\net8.0\Hse.Ratings.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RobotComp\Курсач\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\obj\Debug\net8.0\Hse.Ratings.Application.AssemblyInfoInputs.cache
+C:\Users\RobotComp\Курсач\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\obj\Debug\net8.0\Hse.Ratings.Application.AssemblyInfo.cs
+C:\Users\RobotComp\Курсач\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\obj\Debug\net8.0\Hse.Ratings.Application.csproj.CoreCompileInputs.cache
+C:\Users\RobotComp\Курсач\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\obj\Debug\net8.0\Hse.Rati.B4BE3796.Up2Date
+C:\Users\RobotComp\Курсач\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\obj\Debug\net8.0\Hse.Ratings.Application.dll
+C:\Users\RobotComp\Курсач\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\obj\Debug\net8.0\refint\Hse.Ratings.Application.dll
+C:\Users\RobotComp\Курсач\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\obj\Debug\net8.0\Hse.Ratings.Application.pdb
+C:\Users\RobotComp\Курсач\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\obj\Debug\net8.0\ref\Hse.Ratings.Application.dll
+C:\Users\RobotComp\Курсач\СОП 2.0\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\bin\Debug\net8.0\Hse.Ratings.Application.deps.json
+C:\Users\RobotComp\Курсач\СОП 2.0\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\bin\Debug\net8.0\Hse.Ratings.Application.dll
+C:\Users\RobotComp\Курсач\СОП 2.0\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\bin\Debug\net8.0\Hse.Ratings.Application.pdb
+C:\Users\RobotComp\Курсач\СОП 2.0\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\bin\Debug\net8.0\Hse.Ratings.Domain.dll
+C:\Users\RobotComp\Курсач\СОП 2.0\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\bin\Debug\net8.0\Hse.Ratings.Domain.pdb
+C:\Users\RobotComp\Курсач\СОП 2.0\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\obj\Debug\net8.0\Hse.Ratings.Application.csproj.AssemblyReference.cache
+C:\Users\RobotComp\Курсач\СОП 2.0\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\obj\Debug\net8.0\Hse.Ratings.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RobotComp\Курсач\СОП 2.0\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\obj\Debug\net8.0\Hse.Ratings.Application.AssemblyInfoInputs.cache
+C:\Users\RobotComp\Курсач\СОП 2.0\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\obj\Debug\net8.0\Hse.Ratings.Application.AssemblyInfo.cs
+C:\Users\RobotComp\Курсач\СОП 2.0\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\obj\Debug\net8.0\Hse.Ratings.Application.csproj.CoreCompileInputs.cache
+C:\Users\RobotComp\Курсач\СОП 2.0\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\obj\Debug\net8.0\Hse.Rati.B4BE3796.Up2Date
+C:\Users\RobotComp\Курсач\СОП 2.0\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\obj\Debug\net8.0\Hse.Ratings.Application.dll
+C:\Users\RobotComp\Курсач\СОП 2.0\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\obj\Debug\net8.0\refint\Hse.Ratings.Application.dll
+C:\Users\RobotComp\Курсач\СОП 2.0\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\obj\Debug\net8.0\Hse.Ratings.Application.pdb
+C:\Users\RobotComp\Курсач\СОП 2.0\СОП 2.0\Hse.Ratings\backend\src\Hse.Ratings.Application\obj\Debug\net8.0\ref\Hse.Ratings.Application.dll
